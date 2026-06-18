@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zeroui",
+  "version": "${version}",
+  "name": "ZeroUI",
+  "description": "现代化简约UI - 修改标题画面布局和主题颜色设置",
+  "authors": ["ZeroUI Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.zeroui.mod.ZeroUIMod"]
+  },
+  "mixins": ["zeroui.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.5",
+    "fabric-api": "*"
+  }
+}
